@@ -10,11 +10,15 @@
 
 ## Screenshots 
 
-<img src="https://github.com/Drashtipatel296/adv_flutter_ch2/assets/143180636/5e7d6513-af7c-430c-abb1-923189b776ef" height=500px>
-<img src="https://github.com/Drashtipatel296/adv_flutter_ch2/assets/143180636/e08e50a3-afd4-4694-b5ef-070e0e8d6a75" height=500px>
+<div align="center">
+  <img src="https://github.com/Drashtipatel296/adv_flutter_ch2/assets/143180636/5e7d6513-af7c-430c-abb1-923189b776ef" height=500px>
+  <img src="https://github.com/Drashtipatel296/adv_flutter_ch2/assets/143180636/e08e50a3-afd4-4694-b5ef-070e0e8d6a75" height=500px>
+</div>
 
 ## 🎥 Video
-<video src="https://github.com/Drashtipatel296/adv_flutter_ch2/assets/143180636/ba7afeda-8923-45ce-8355-95557d4e2857" height=500px> 
+<div align="center">
+  <video src="https://github.com/Drashtipatel296/adv_flutter_ch2/assets/143180636/ba7afeda-8923-45ce-8355-95557d4e2857" height=500px> 
+</div>
 
 
 
@@ -27,10 +31,14 @@
 
 ## Screenshots 
 
-<img src="https://github.com/Drashtipatel296/adv_flutter_ch2/assets/143180636/04040e3a-abb6-4e97-9db4-4d3d0acf047d" height=500px>
+<div align="center">
+  <img src="https://github.com/Drashtipatel296/adv_flutter_ch2/assets/143180636/04040e3a-abb6-4e97-9db4-4d3d0acf047d" height=500px>
+</div>
 
 ## 🎥 Video
-<video src="https://github.com/Drashtipatel296/adv_flutter_ch2/assets/143180636/9141f972-2f04-4d30-8040-14880a4faef5" height=500px> 
+<div align="center">
+  <video src="https://github.com/Drashtipatel296/adv_flutter_ch2/assets/143180636/9141f972-2f04-4d30-8040-14880a4faef5" height=500px> 
+</div>
 
 
 ###  3. Dialog :-
@@ -41,10 +49,14 @@
 
 ## Screenshots 
 
-<img src="https://github.com/Drashtipatel296/adv_flutter_ch2/assets/143180636/4cd7371d-cd0e-4019-a3f2-1ca3a352b2c2" height=500px>
+<div align="center">
+  <img src="https://github.com/Drashtipatel296/adv_flutter_ch2/assets/143180636/4cd7371d-cd0e-4019-a3f2-1ca3a352b2c2" height=500px>
+</div>
 
 ## 🎥 Video
-<video src="https://github.com/Drashtipatel296/adv_flutter_ch2/assets/143180636/79e6e364-2651-4952-a286-233541aaef7e" height=500px> 
+<div align="center">
+  <video src="https://github.com/Drashtipatel296/adv_flutter_ch2/assets/143180636/79e6e364-2651-4952-a286-233541aaef7e" height=500px> 
+</div>
 
 
 ###  1. Cupertino Date Picker :-
@@ -55,7 +67,9 @@
 
 ## Screenshots 
 
-<img src="https://github.com/Drashtipatel296/adv_flutter_ch2/assets/143180636/4e733e6c-7fc5-416d-814d-ec92e2e49edb" height=500px>
+<div align="center">
+  <img src="https://github.com/Drashtipatel296/adv_flutter_ch2/assets/143180636/4e733e6c-7fc5-416d-814d-ec92e2e49edb" height=500px>
+</div>
 
 
 ###  1. Cupertino Time Picker :-
@@ -67,7 +81,9 @@
 
 ## Screenshots 
 
-<img src="https://github.com/Drashtipatel296/adv_flutter_ch2/assets/143180636/fc7ed27a-9cbd-4ec9-88b9-ed267e3ed33d" height=500px>
+<div align="center">
+  <img src="https://github.com/Drashtipatel296/adv_flutter_ch2/assets/143180636/fc7ed27a-9cbd-4ec9-88b9-ed267e3ed33d" height=500px>
+</div>
 
 
 ###  1. Cupertino Action Sheet :-
@@ -79,8 +95,11 @@
 
 ## Screenshots 
 
-<img src="https://github.com/Drashtipatel296/adv_flutter_ch2/assets/143180636/ce14b731-82aa-4e0e-8706-b8f9f125765f" height=500px>
-<video src="https://github.com/Drashtipatel296/adv_flutter_ch2/assets/143180636/14a928bf-e854-4808-9b95-9de42c940cf4" height=500px>
+<div align="center">
+  <img src="https://github.com/Drashtipatel296/adv_flutter_ch2/assets/143180636/ce14b731-82aa-4e0e-8706-b8f9f125765f" height=500px>
+</div>
 
-
+ <div align="center">
+   <video src="https://github.com/Drashtipatel296/adv_flutter_ch2/assets/143180636/14a928bf-e854-4808-9b95-9de42c940cf4" height=500px>
+ </div>
 
