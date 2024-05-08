@@ -23,7 +23,7 @@ class DialogScreen extends StatelessWidget {
               context: context,
               builder: (context) {
                 return AlertDialog(
-                  title: Text('Phone ringtone'),
+                  title: Text('Phone ringtone',style: TextStyle(fontWeight: FontWeight.w500),),
                   content: Column(
                     mainAxisSize: MainAxisSize.min,
                     children: [

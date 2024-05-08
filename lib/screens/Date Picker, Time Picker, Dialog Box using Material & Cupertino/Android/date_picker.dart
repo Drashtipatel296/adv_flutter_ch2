@@ -3,8 +3,8 @@ import 'package:flutter/material.dart';
 DateTime dateTime = DateTime.now();
 final TextEditingController dateController = TextEditingController();
 
-class Scree1 extends StatelessWidget {
-  const Scree1({super.key});
+class Screen1 extends StatelessWidget {
+  const Screen1({super.key});
 
   @override
   Widget build(BuildContext context) {
