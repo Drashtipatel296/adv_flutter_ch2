@@ -103,3 +103,38 @@
    <video src="https://github.com/Drashtipatel296/adv_flutter_ch2/assets/143180636/14a928bf-e854-4808-9b95-9de42c940cf4" height=500px>
  </div>
 
+##  🔥2.3 CupertinoSliverNavigationBar  & CupertinoListTile.🔥
+
+### 1. Custom-scroll :-
+
+#### Screenshots :-
+
+<div align="center">
+  <img src="https://github.com/Drashtipatel296/adv_flutter_ch2/assets/143180636/d871b824-024f-452f-9b90-438d6d955c6f" height=500px>
+</div>
+
+#### Video :-
+
+<div align="center">
+  <video src="https://github.com/Drashtipatel296/adv_flutter_ch2/assets/143180636/f5154829-6b9d-4507-9db8-d0685d2ec29e" height=500px>
+</div>
+
+### 2. CupertinoListSection :-
+
+#### Screenshots :-
+<div align="center">
+  <img src="https://github.com/Drashtipatel296/adv_flutter_ch2/assets/143180636/0d882c49-60f9-4224-9d91-80e4ff9c2721" height=500px>
+  <img src="https://github.com/Drashtipatel296/adv_flutter_ch2/assets/143180636/acf7a823-12a6-4daf-80ce-6f9597ed87a1" height=500px>
+</div>
+
+ <div align="center">
+    <a href="https://github.com/Drashtipatel296/adv_flutter_ch2/tree/master/lib/screens/CupertinoSliverNavigationBar%20%20%26%20CupertinoListTile/view">👉 📚 Go to dart file 📚 👈</a>
+</div>
+
+
+
+
+
+
+
+
