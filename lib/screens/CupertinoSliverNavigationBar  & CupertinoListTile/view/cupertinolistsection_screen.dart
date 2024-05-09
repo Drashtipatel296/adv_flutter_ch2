@@ -6,6 +6,7 @@ class SectionScreen extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return CupertinoPageScaffold(
+      backgroundColor: Color(0XFFEFEFF4),
       child: CustomScrollView(
         slivers: [
           const CupertinoSliverNavigationBar(
