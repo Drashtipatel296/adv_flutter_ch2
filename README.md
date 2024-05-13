@@ -131,6 +131,59 @@
     <a href="https://github.com/Drashtipatel296/adv_flutter_ch2/tree/master/lib/screens/CupertinoSliverNavigationBar%20%20%26%20CupertinoListTile/view">👉 📚 Go to dart file 📚 👈</a>
 </div>
 
+##  🔥2.4 CupertinoTabBar, CupertinoSlider & CupertinoSlidingSegmentedControl.🔥
+
+### 1. CupertinoTabBar :-
+
+***- An iOS-styled bottom navigation tab bar.***
+***Displays multiple tabs using BottomNavigationBarItem with one tab being active, the first tab by default.***
+***This StatelessWidget doesn't store the active tab itself.***
+***You must listen to the onTap callbacks and call setState with a new currentIndex for the new selection to reflect. This can also be done automatically by wrapping this with a CupertinoTabScaffold.***
+
+#### Screenshots :-
+<div align="center">
+  <img src="https://github.com/Drashtipatel296/adv_flutter_ch2/assets/143180636/790fa425-ba9e-4ec7-a8c9-9541f7b23b72" height=500px>
+</div>
+
+#### Video :-
+
+<div align="center">
+  <video src="https://github.com/Drashtipatel296/adv_flutter_ch2/assets/143180636/1b80dc26-398a-4f7a-940a-f706e1205803" height=500px>
+</div>
+
+### 1. CupertinoSlider :-
+
+***- A slider can be used to select from either a continuous or a discrete set of values.***
+***The default is use a continuous range of values from min to max.***
+***To use discrete values, use a non-null value for divisions, which indicates the number of discrete intervals.***
+***For example, if min is 0.0 and max is 50.0 and divisions is 5, then the slider can take on the values discrete values 0.0, 10.0, 20.0, 30.0, 40.0, and 50.0.***
+
+#### Screenshots :-
+<div align="center">
+  <img src="https://github.com/Drashtipatel296/adv_flutter_ch2/assets/143180636/a6c99259-00a8-4f71-b357-1c5a168e4c31" height=500px>
+</div>
+
+#### Video :-
+
+<div align="center">
+  <video src="https://github.com/Drashtipatel296/adv_flutter_ch2/assets/143180636/9f311629-6b2b-476b-a20c-28758e7a10bc" height=500px>
+</div>
+
+### 1. CupertinoSlidingSegmentedControl :-
+
+***- An iOS 13 style segmented control.***
+***Displays the widgets provided in the Map of children in a horizontal list.***
+***It allows the user to select between a number of mutually exclusive options, by tapping or dragging within the segmented control.***
+***The widget calls the onValueChanged callback when a valid user gesture completes on an unselected segment.***
+
+#### Screenshots :-
+<div align="center">
+  <img src="https://github.com/Drashtipatel296/adv_flutter_ch2/assets/143180636/189f2b3e-181a-46b9-b424-2ce19f510141" height=500px>
+</div>
+
+<div align="center">
+    <a href="https://github.com/Drashtipatel296/adv_flutter_ch2/tree/master/lib/screens/CupertinoTabBar%2C%20CupertinoSlider%20%26%20CupertinoSlidingSegmentedControl">👉 📚 Go to dart file 📚 👈</a>
+</div>
 
 
 
