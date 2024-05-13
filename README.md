@@ -185,6 +185,54 @@
     <a href="https://github.com/Drashtipatel296/adv_flutter_ch2/tree/master/lib/screens/CupertinoTabBar%2C%20CupertinoSlider%20%26%20CupertinoSlidingSegmentedControl">👉 📚 Go to dart file 📚 👈</a>
 </div>
 
+##  🔥2.5 Page View & BottomNavigationBar. 🔥
+
+### 1. Page View :-
+
+<div align="center">
+  <video src="https://github.com/Drashtipatel296/adv_flutter_ch2/assets/143180636/f4d0740e-b10a-44f5-8066-4743ec39f76a" height=500px>
+</div>
+
+### 2. BottomNavigationBar :-
+
+<div align="center">
+  <img src="https://github.com/Drashtipatel296/adv_flutter_ch2/assets/143180636/5a820fbf-7c69-447a-bbcb-921ce34a1f9c" height=300px>
+</div>
+
+<div align="center">
+  <video src="https://github.com/Drashtipatel296/adv_flutter_ch2/assets/143180636/e73ec17e-3e70-44e0-a386-0d771866a12f" height=500px>
+</div>
+<div align="center">
+    <a href="https://github.com/Drashtipatel296/adv_flutter_ch2/tree/master/lib/screens/Page%20View%20%26%20BottomNavigationBar">👉 📚 Go to dart file 📚 👈</a>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
