@@ -1,20 +1,10 @@
-import 'dart:io';
-import 'package:adv_flutter_ch2/screens/Cupertino%20Widgets/adaptive_widgets/adaptive_widget.dart';
 import 'package:adv_flutter_ch2/screens/Cupertino%20Widgets/provider/platform_provider.dart';
-import 'package:adv_flutter_ch2/screens/Cupertino%20Widgets/view/android_screen/androidscreen.dart';
-import 'package:adv_flutter_ch2/screens/Cupertino%20Widgets/view/iOs_screen/iOsscreen.dart';
-import 'package:adv_flutter_ch2/screens/CupertinoSliverNavigationBar%20%20&%20CupertinoListTile/view/cupertinolistsection_screen.dart';
-import 'package:adv_flutter_ch2/screens/CupertinoSliverNavigationBar%20%20&%20CupertinoListTile/view/custom_scroll_list.dart';
-import 'package:adv_flutter_ch2/screens/CupertinoSliverNavigationBar%20%20&%20CupertinoListTile/view/listsection2.dart';
-import 'package:adv_flutter_ch2/screens/Date%20Picker,%20Time%20Picker,%20Dialog%20Box%20using%20Material%20&%20Cupertino/Android/date_picker.dart';
-import 'package:adv_flutter_ch2/screens/Date%20Picker,%20Time%20Picker,%20Dialog%20Box%20using%20Material%20&%20Cupertino/Android/dialog_screen.dart';
+import 'package:adv_flutter_ch2/screens/CupertinoTabBar,%20CupertinoSlider%20&%20CupertinoSlidingSegmentedControl/provider/segment_provider.dart';
+import 'package:adv_flutter_ch2/screens/CupertinoTabBar,%20CupertinoSlider%20&%20CupertinoSlidingSegmentedControl/provider/slider_provider.dart';
+import 'package:adv_flutter_ch2/screens/CupertinoTabBar,%20CupertinoSlider%20&%20CupertinoSlidingSegmentedControl/view/cupertino_button.dart';
+import 'package:adv_flutter_ch2/screens/CupertinoTabBar,%20CupertinoSlider%20&%20CupertinoSlidingSegmentedControl/view/slider_screen.dart';
 import 'package:adv_flutter_ch2/screens/Date%20Picker,%20Time%20Picker,%20Dialog%20Box%20using%20Material%20&%20Cupertino/Android/provider/dialog_provider.dart';
-import 'package:adv_flutter_ch2/screens/Date%20Picker,%20Time%20Picker,%20Dialog%20Box%20using%20Material%20&%20Cupertino/Android/time_picker.dart';
-import 'package:adv_flutter_ch2/screens/Date%20Picker,%20Time%20Picker,%20Dialog%20Box%20using%20Material%20&%20Cupertino/iOS/action_sheet.dart';
-import 'package:adv_flutter_ch2/screens/Date%20Picker,%20Time%20Picker,%20Dialog%20Box%20using%20Material%20&%20Cupertino/iOS/date_picker.dart';
-import 'package:adv_flutter_ch2/screens/Date%20Picker,%20Time%20Picker,%20Dialog%20Box%20using%20Material%20&%20Cupertino/iOS/time_picker.dart';
 import 'package:flutter/cupertino.dart';
-import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
 
 void main() {
@@ -26,7 +16,13 @@ void main() {
         ),
         ChangeNotifierProvider(
           create: (context) => PlatformProvider(),
-        )
+        ),
+        ChangeNotifierProvider(
+          create: (context) => SegmentProvider(),
+        ),
+        ChangeNotifierProvider(
+          create: (context) => SliderProvider(),
+        ),
       ],
       child: const MyApp(),
     ),
@@ -58,8 +54,7 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return const CupertinoApp(
       debugShowCheckedModeBanner: false,
-      home: ListSectionScreen(),
+      home: TabScreen(),
     );
   }
 }
-
