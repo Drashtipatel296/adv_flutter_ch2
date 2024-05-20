@@ -1,29 +1,60 @@
 import 'package:flutter/cupertino.dart';
-import 'package:flutter/material.dart';
 
-class DateScreen extends StatelessWidget {
-  const DateScreen({super.key});
+class DatePickerScreen extends StatelessWidget {
+  const DatePickerScreen({super.key});
 
   @override
   Widget build(BuildContext context) {
-    return Scaffold(
-      appBar: AppBar(
-        leading: const Icon(Icons.menu),
-        title: const Text(
-          'Date Picker',
-          style: TextStyle(fontSize: 26, fontWeight: FontWeight.bold),
+
+    final TextEditingController dateController = TextEditingController();
+
+    return  CupertinoPageScaffold(
+        navigationBar: CupertinoNavigationBar(
+          middle: Text('Date Picker'),
         ),
-        centerTitle: true,
-      ),
-      body: Center(
-        child: SizedBox(
-          height: 300,
-          width: 400,
-          child: CupertinoDatePicker(onDateTimeChanged: (DateTime value) {},
-            mode: CupertinoDatePickerMode.dateAndTime,
+        child: Padding(
+          padding: const EdgeInsets.all(8.0),
+          child: Center(
+            child: CupertinoTextField(
+              controller: dateController,
+              readOnly: true,
+              decoration: BoxDecoration(
+                border: Border.all(
+                  color: CupertinoColors.black,
+                  width: 1.5,
+                ),
+                borderRadius: BorderRadius.circular(10),
+              ),
+              suffix: CupertinoButton(
+                padding: EdgeInsets.zero,
+                onPressed: () async {
+                  DateTime selectedDate = await showCupertinoModalPopup<DateTime>(
+                    context: context,
+                    builder: (context) => Container(
+                      height: 200,
+                      child: CupertinoDatePicker(
+                        initialDateTime: DateTime.now(),
+                        minimumDate: DateTime(1947),
+                        maximumDate: DateTime(2047),
+                        mode: CupertinoDatePickerMode.date,
+                        onDateTimeChanged: (date) {
+                          String formattedDate = "${date.day}/${date.month}/${date.year}";
+                          dateController.text = formattedDate;
+                        },
+                      ),
+                    ),
+                  ) ?? DateTime.now();
+                  print(selectedDate);
+                },
+                child: Icon(CupertinoIcons.calendar),
+              ),
+              placeholder: 'dd/mm/yyyy',
+              prefix: Padding(
+                padding: EdgeInsets.symmetric(horizontal: 6),
+                child: Text(''),
+              ),
+            ),
           ),
-        ),
-      ),
-    );
+        ));
   }
 }
