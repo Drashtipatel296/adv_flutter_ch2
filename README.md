@@ -68,9 +68,12 @@
 ## Screenshots 
 
 <div align="center">
-  <img src="https://github.com/Drashtipatel296/adv_flutter_ch2/assets/143180636/4e733e6c-7fc5-416d-814d-ec92e2e49edb" height=500px>
+  <img src="https://github.com/Drashtipatel296/adv_flutter_ch2/assets/143180636/0760af95-6678-4949-a4c7-271be6a99527" height=500px>
 </div>
 
+<div align="center">
+  <video src="https://github.com/Drashtipatel296/adv_flutter_ch2/assets/143180636/d287d97e-ff85-4772-91b9-edf4d23f2dc6" height=500px>
+</div>
 
 ###  1. Cupertino Time Picker :-
 
@@ -80,7 +83,6 @@
 #### 👉 There are several modes of the timer picker listed in CupertinoTimerPickerMode.
 
 ## Screenshots 
-
 <div align="center">
   <img src="https://github.com/Drashtipatel296/adv_flutter_ch2/assets/143180636/fc7ed27a-9cbd-4ec9-88b9-ed267e3ed33d" height=500px>
 </div>
