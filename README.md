@@ -218,12 +218,18 @@ Sliver is a portion of the scrollable area which is used to achieve a custom scr
 
 <div align="center">
   <video src="https://github.com/Drashtipatel296/adv_flutter_ch2/assets/143180636/b7255530-a804-4ac9-a3f7-d5a3966f5440" height=500px>
-    <video src="https://github.com/Drashtipatel296/adv_flutter_ch2/assets/143180636/887caf7c-19fc-41be-b18d-2e6f0d1f70ec" height=500px>
+</div>
+
+<div align="center">
+  <video src="https://github.com/Drashtipatel296/adv_flutter_ch2/assets/143180636/2e99edcf-79f4-478a-942d-cab40c97ba05" height=500px>
 </div>
 
 <div align="center">
     <a href="https://github.com/Drashtipatel296/adv_flutter_ch2/tree/master/lib/screens/Sliver%20Widgets/screens">👉 📚 Go to dart file 📚 👈</a>
 </div>
+
+
+
 
 
 
