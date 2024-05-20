@@ -5,6 +5,7 @@ import 'package:adv_flutter_ch2/screens/Date%20Picker,%20Time%20Picker,%20Dialog
 import 'package:adv_flutter_ch2/screens/Page%20View%20&%20BottomNavigationBar/provider/bottom_provider.dart';
 import 'package:adv_flutter_ch2/screens/Page%20View%20&%20BottomNavigationBar/view/bottom_navigationbar.dart';
 import 'package:adv_flutter_ch2/screens/Page%20View%20&%20BottomNavigationBar/view/home_screen.dart';
+import 'package:adv_flutter_ch2/screens/Sliver%20Widgets/screens/slivar_screen.dart';
 import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
 
@@ -45,7 +46,7 @@ class MyApp extends StatelessWidget {
           backgroundColor: Colors.blue.shade50,
         ),
       ),
-      home: const BottomNavigationScreen(),
+      home: const SliverScreen(),
     );
   }
 }
