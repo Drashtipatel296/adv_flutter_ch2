@@ -206,17 +206,24 @@
     <a href="https://github.com/Drashtipatel296/adv_flutter_ch2/tree/master/lib/screens/Page%20View%20%26%20BottomNavigationBar">👉 📚 Go to dart file 📚 👈</a>
 </div>
 
+##  🔥2.8 Sliver Widgets.🔥
 
+Sliver is a portion of the scrollable area which is used to achieve a custom scrolling effect. In other words, the sliver widget is a slice of the viewport. We can implement all of the scrollable views, such as ListView, GridView using slivers. It is a lower-level interface that provides excellent control over implementing a scrollable area. It is useful while scrolling large numbers of children widgets in a scrollable area. 
 
+#### Screenshots :-
+<div align="center">
+  <img src="https://github.com/Drashtipatel296/adv_flutter_ch2/assets/143180636/7c4615aa-183d-4d3c-8fdf-f0ddaf1d4973" height=500px>
+  <img src="https://github.com/Drashtipatel296/adv_flutter_ch2/assets/143180636/39b25986-0e47-4abe-9aa4-3f20cedadcd4" height=500px>
+</div>
 
+<div align="center">
+  <video src="https://github.com/Drashtipatel296/adv_flutter_ch2/assets/143180636/b7255530-a804-4ac9-a3f7-d5a3966f5440" height=500px>
+    <video src="https://github.com/Drashtipatel296/adv_flutter_ch2/assets/143180636/887caf7c-19fc-41be-b18d-2e6f0d1f70ec" height=500px>
+</div>
 
-
-
-
-
-
-
-
+<div align="center">
+    <a href="https://github.com/Drashtipatel296/adv_flutter_ch2/tree/master/lib/screens/Sliver%20Widgets/screens">👉 📚 Go to dart file 📚 👈</a>
+</div>
 
 
 
