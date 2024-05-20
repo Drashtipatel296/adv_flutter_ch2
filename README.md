@@ -208,6 +208,27 @@
     <a href="https://github.com/Drashtipatel296/adv_flutter_ch2/tree/master/lib/screens/Page%20View%20%26%20BottomNavigationBar">👉 📚 Go to dart file 📚 👈</a>
 </div>
 
+##  🔥2.5 CupertinoActionSheet & CupertinoContextMenu.🔥
+
+### 1. CupertinoActionSheet :-
+
+#### Screenshots :-
+<div align="center">
+  <img src="https://github.com/Drashtipatel296/adv_flutter_ch2/assets/143180636/e261ed73-d6a1-4df8-ab60-fa853b145376" height=500px>
+</div>
+
+### 2. CupertinoContextMenu :-
+
+#### Screenshots :-
+<div align="center">
+  <img src="https://github.com/Drashtipatel296/adv_flutter_ch2/assets/143180636/0dd684f3-27f8-480c-a0fe-1c488c2e92fa" height=500px>
+</div>
+
+<div align="center">
+  <video src="https://github.com/Drashtipatel296/adv_flutter_ch2/assets/143180636/dc42eb78-ac62-411a-96a2-4581559dac24" height=500px>
+</div>
+
+
 ##  🔥2.8 Sliver Widgets.🔥
 
 Sliver is a portion of the scrollable area which is used to achieve a custom scrolling effect. In other words, the sliver widget is a slice of the viewport. We can implement all of the scrollable views, such as ListView, GridView using slivers. It is a lower-level interface that provides excellent control over implementing a scrollable area. It is useful while scrolling large numbers of children widgets in a scrollable area. 
